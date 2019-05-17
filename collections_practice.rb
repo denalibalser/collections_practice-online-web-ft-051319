@@ -34,3 +34,7 @@ def sort_array_char_count(array)
     end
     new_array
   end
+
+def find_a(array)
+  array.start_with?("a")
+end
