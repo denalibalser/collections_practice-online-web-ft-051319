@@ -19,3 +19,8 @@ def sort_array_char_count(array)
       a[1] <=> b[2]
     end
   end
+
+  def reverse_array(array)
+    array.reverse
+  end
+  
