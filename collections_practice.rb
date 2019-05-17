@@ -37,6 +37,8 @@ def sort_array_char_count(array)
 
 def find_a(array)
   array.collect do |string|
-    binding.pry
+    if string.include?("a")
+      return string
+    end 
   end
 end
