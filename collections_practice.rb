@@ -25,7 +25,9 @@ def sort_array_char_count(array)
   end
 
   def kesha_maker(array)
+    new_array = []
     array.each do |character|
-      binding.pry
+      
     end
+    new_array
   end
