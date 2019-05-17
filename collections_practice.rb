@@ -28,7 +28,8 @@ def sort_array_char_count(array)
     new_array = []
     array.each do |element|
       element.each do |character|
-      end 
+        binding.pry
+      end
     end
     new_array
   end
