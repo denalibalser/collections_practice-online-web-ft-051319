@@ -29,7 +29,7 @@ def sort_array_char_count(array)
     array.each do |element|
 
         binding.pry
-      end
+      
     end
     new_array
   end
