@@ -49,7 +49,10 @@ def add_s(array)
   new_array = []
   i = 0
   array.each_with_index do |word, index|
-    binding.pry
+    if index == 1
+      return word
+    else
+      word.push("s")
     i += 1
   end
   new_array
