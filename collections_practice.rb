@@ -28,7 +28,8 @@ def sort_array_char_count(array)
     new_array = []
     i = 0
     array.each do |element|
-      new_array << element[2]= "$"
+      element[2]= "$"
+      new_array << element[2]
       i += 1
     end
     new_array
