@@ -54,6 +54,7 @@ def add_s(array)
     else
       word.push("s")
     i += 1
+   end 
   end
   new_array
 end
