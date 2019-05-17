@@ -48,9 +48,8 @@ end
 def add_s(array)
   new_array = []
   i = 0
-  array.each do |word|
-    word[-1] = "s"
-    new_array << word
+  array.each_with_index do |word, index|
+    binding.pry
     i += 1
   end
   new_array
