@@ -53,9 +53,9 @@ def add_s(array)
       word
     else
       word.insert(-1, "s")
-    i += 1
-    new_array << array
    end
+   i += 1
+   new_array << array
   end
   new_array
 end
